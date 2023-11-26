@@ -29,8 +29,6 @@ public enum OpenAIModelType {
     
     /// ``Moderation`` Family of Models
     case moderation(Moderation)
-    /// ```GPT4```
-    case gpt4(GPT4)
     
     /// Other Custom Models
     case other(String)
@@ -72,10 +70,6 @@ public enum OpenAIModelType {
         ///
         /// > Model Name: text-ada-001
         case ada = "text-ada-001"
-    }
-    
-    public enum GPT4: String {
-        case gpt4 = "gpt-4"
     }
     
     /// A set of models that can understand and generate code, including translating natural language to code
